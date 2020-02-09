@@ -1,6 +1,6 @@
 .pageTitle {
    background-color: rgb(97, 97, 97);
-   color: white; 
+   color: whitesmoke; 
    text-align: center;
 }
 
@@ -14,13 +14,17 @@
 }
 
 .searchTitle {
-    text-align: center;
+    text-align: left;
 }
 
 .listArea {
     background-color: gray;
     height: 400px;
 
+}
+
+td {
+    background-color: whitesmoke;
 }
 
 .rightSide {
@@ -35,14 +39,15 @@
 
 .forecastTitle {
     background-color: gray;
-    height: 40px;
-
+    height: 30px;
 }
 
 .cardArea {
     justify-content: center;
+    margin-top: 10px;
 }
 
 .card {
-    height: 150px;
+    height: 120px;
 }
+

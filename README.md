@@ -35,3 +35,5 @@ Progress:
 2020.02.08.1005 - Initial Commit.  Initialized readme.me, and set up folder structure.  Created index.html, style.css, and logic.js.
 
 2020.02.08.2117 - For index.html, Bootstrap grid has been created, Placeholder data has been added.  For style.css, I updated the background colors of the various regions I will be working with with placeholder colors, formatted headers, and formatted element heights.
+
+2020.02.08.2141 - For index.html, Bootstrap grid has been updated.  For style.css, I updated the background colors of the various regions I will be working with with updated  placeholder colors.  FOr logic.js, I began pseudocoding.
