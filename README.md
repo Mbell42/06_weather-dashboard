@@ -40,3 +40,5 @@ Progress:
 
 2020.02.08.2335 - For logic.js, I have completed pseudocoding, and have built the onClick function for the search function.  This function will show the weather data and forecast data, as well as push recent searches to an array.
 
+2020.02.08.2354 - For logic.js, I have updated my pseudocoding, and have built the showHistory function to run after the page loads.  This function will show the recent searches the user has made using local storage.  Current issues:  I broke something with my javascript regarding the ajax call and the local storage, and am unable to fix it yet.  I will continue tinkering with the homework to see what I did wrong.
+
