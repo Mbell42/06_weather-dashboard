@@ -20,7 +20,7 @@ Resources used:
 - fontawesome       - https://use.fontawesome.com/releases/v5.8.1/css/all.css
 - google apis       - https://fonts.googleapis.com/css?family=Open+Sans&display=swap
 - jQuery CDN        - https://code.jquery.com/jquery-3.4.1.min.js
-- library              - https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js
+- moment.js library              - https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js
 
 
 
@@ -32,4 +32,6 @@ Reference:
 
 Progress:
 ------------
-2020.02.08.~~~~- Initial Commit.  Initialized readme.me, and set up folder structure.  Created index.html, style.css, and logic.js.
+2020.02.08.1005 - Initial Commit.  Initialized readme.me, and set up folder structure.  Created index.html, style.css, and logic.js.
+
+2020.02.08.2117 - For index.html, Bootstrap grid has been created, Placeholder data has been added.  For style.css, I updated the background colors of the various regions I will be working with with placeholder colors, formatted headers, and formatted element heights.
