@@ -56,4 +56,9 @@ td {
 .card {
     height: 120px;
 }
-
+.day p {
+    font-size: 10.5px;
+}
+.forecastDay {
+    font-weight: bold;
+}

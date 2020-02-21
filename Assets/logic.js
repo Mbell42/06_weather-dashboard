@@ -62,17 +62,19 @@ $(document).ready(function() {
             for (var i in response.list) {
               if (i > 0 && response.list[i].dt_txt.indexOf("12:00") > -1) { //NOT indexof
                 // Create variable to contain forecast data
+                let forecastTempC = (response.list[i].main.temp - 273.15).toFixed(2);
+                
                 let forecastArray = [
                   "<div class = 'col-sm-2 day'>",
-                  "<p>",
+                  "<p class = 'forecastDay'>",
   
                   response.list[i].dt_txt.split(" ")[0],
                   "</p>",
                   "<img src = 'http://openweathermap.org/img/wn/" + response.list[i].weather[0].icon + "@2x.png'>", //CORRECTED THIS
                   "<p> Temp: ",
   
-                  response.list[i].main.temp,
-                  " degrees</p>",
+                  forecastTempC,
+                  " degrees Celsius</p>",
                   "<p> Humidity: ",
   
                   response.list[i].main.humidity,
